@@ -12,8 +12,8 @@
     "test": "jest",
     "prepublishOnly": "npm run build:prod",
     "gc": "commit",
-    "semantic-release": "semantic-release --pro",
-    "travis-deploy-once": "travis-deploy-once"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once --pro"
   },
   "repository": {
     "type": "git",
